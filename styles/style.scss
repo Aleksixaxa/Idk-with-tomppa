@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import "./variables";
+@import "../styles/contact";
+
 //* adding all
 * {
     margin: 0;
@@ -18,7 +21,7 @@ html {
     justify-content: center;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.342);
+    background: $bgColor;
 
 
     .logo {
@@ -66,12 +69,6 @@ html {
 .burger div{
     width: 25px;
     height: 3px;
-    background-color: #FF3024;
+    background-color: $otherPrimary;
     margin: 5px;
-}
-
-
-
-body {
-    height: 300vh;
 }
