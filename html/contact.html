@@ -22,6 +22,7 @@
             <div class="line3"></div>
         </div>
     </header>
+    <div class="wrapper">
     <div class="contact-title">
         <h1>Contact Us</h1>
     </div>
@@ -29,15 +30,16 @@
     <div class="contact-form">
         <form id="contact-form" method="POST" action="contact-form-handler.php">
             <div class="names">
-                <input name="name" type="text" class="form-control" placeholder="Firstname" required><br>
-                <input name="lastname" type="text" class="form-control" placeholder="Lastname" required><br>
+                <input name="name" type="text" class="form-controls" placeholder="Firstname" required><br>
+                <input name="lastname" type="text" class="form-controls" placeholder="Lastname" required><br>
             </div>
-            <input name="email" id="email" type="text" class="form-control" placeholder="Email" required><br>
-            <input name="subject" type="text" class="form-control" placeholder="Subject Here" required><br>
-            <textarea name="message" class="form-control" placeholder="Message Here" row="4"></textarea>
+                <input name="email" id="email" type="text" class="form-control" placeholder="Email" required><br>
+                <input name="subject" id="subject" type="text" class="form-control" placeholder="Subject Here" required><br>
+                <textarea name="message" id="message" class="form-control" placeholder="Message Here" row="4"></textarea>
             <br>
             <input type="submit" id="submit" class="form-control submit" value="SEND MESSAGE">
         </form>
     </div>
+</div>
 </body>
 </html>

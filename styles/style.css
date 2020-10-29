@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-.contact-form, .contact-title {
+.wrapper {
+  margin-top: 10vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contact-form {
   padding: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,26 +17,35 @@
           justify-content: center;
 }
 
-.contact-form .names, .contact-title .names {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 104%;
-}
-
-.contact-form .form-control, .contact-title .form-control {
+.form-control {
+  width: 600px;
   padding: 1em;
   border-radius: .5em;
-  width: 100%;
   border: none;
 }
 
-.contact-form input, .contact-form textarea, .contact-title input, .contact-title textarea {
-  margin: .6em;
+.form-controls {
+  width: 290px;
+  padding: 1em;
+  border-radius: .5em;
+  border: none;
+}
+
+.names {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+input, textarea {
+  margin: 10px;
   background: rgba(0, 0, 0, 0.342);
 }
 
-.contact-form #submit, .contact-title #submit {
+#submit {
   color: #FF3024;
   font-weight: 700;
 }
