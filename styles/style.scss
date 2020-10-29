@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+//* adding all
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    background-image: url("../pics/anime.jpg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-shit {
+    display: flex;
+    justify-content: center;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.342);
+
+
+    .logo {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        letter-spacing: 2px;
+        color: white;
+    }
+    .nav-links {
+        list-style: none;
+        display: flex;
+        background-color: rgba(134, 134, 134, 0.507);
+
+        .active {
+            background-color: rgba(128, 128, 128, 0.692);
+        }
+        li:hover {
+            background-color: rgba(128, 128, 128, 0.692);
+            transition: all ease 0.3s;
+        }
+        li {
+            padding: 1em 2em;
+        
+            a {
+                color: white;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 1.2em;
+                letter-spacing: 2px;
+            }
+
+        }
+    }
+
+}
+
+.burger{
+    // display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: #FF3024;
+    margin: 5px;
+}
+
+
+
+body {
+    height: 300vh;
+}
