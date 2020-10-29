@@ -48,6 +48,19 @@ input, textarea {
 #submit {
   color: #FF3024;
   font-weight: 700;
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+  height: 15vh;
+}
+
+#submit:hover {
+  background-color: rgba(223, 223, 223, 0.356);
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  color: white;
 }
 
 * {

@@ -77,4 +77,15 @@ input, textarea {
 #submit {
     color: $otherPrimary;
     font-weight: 700;
+    cursor: pointer;
     }
+textarea {
+    resize: none;
+    height: 15vh;
+}
+#submit:hover {
+    background-color: rgba(223, 223, 223, 0.356);
+    transition: all ease 0.3s;
+    color: white;
+
+}
