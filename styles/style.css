@@ -142,4 +142,12 @@ html {
   background-color: #FF3024;
   margin: 5px;
 }
+
+.all-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  height: 100vh;
+}
 /*# sourceMappingURL=style.css.map */
